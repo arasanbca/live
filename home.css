@@ -1,0 +1,193 @@
+.logo{
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    margin-top: -50px;
+    margin-left: 120px;
+    width: 80%;
+}
+.slide1{
+    display: flex;
+    margin-top: 130px;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 90px;
+}
+.cad h3,h1:hover{
+    cursor: pointer;
+}
+.content{
+    width: 39%;
+}
+.img{
+    width: 50%;
+}
+.pages{
+    text-align: center;
+}
+.content h3:hover{
+    cursor: pointer;
+}
+.content p{
+    display: none;
+    font-size: medium;
+}
+.content h3{
+    font-size:x-large;
+    font-weight:600;
+}
+.c1,.c2,.c3{
+    padding-left: 20px;
+}
+.card1,.card2,.card3,.card4{
+    padding-top: 1px;
+    width: 250px;
+    height: 420px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 0px 20px 1px rgb(221, 210, 210);
+}
+#card1{
+    padding-top: 50px;
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    gap: 40px;
+}
+.cd{
+    padding: 15px 15px;
+}
+.cad button,#sl{
+    background:linear-gradient(90deg,rgb(55,48,141),rgb(219,29,46));
+    border:none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+.cad button:hover{
+    background:linear-gradient(90deg,rgb(219,29,46),rgb(55,48,141));
+    border:none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    
+    span{
+        color: blue;
+    }
+}
+#v{
+    padding-top: 50px;
+    display: flex;
+    gap: 1rem;
+    height: 390px;
+    width: 95%;
+    padding-bottom: 50px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+#v div{
+    border-radius: 5px;
+    flex: 1;
+    transition: all 1s;
+}
+#v div:nth-child(1){
+    background: url("/img/v1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#v div:nth-child(2){
+    background: url("/img/v2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#v div:nth-child(3){
+    background: url("/img/v3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#v div:nth-child(4){
+    background: url("/img/v4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#v div:nth-child(5){
+    background: url("/img/v5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#v div:hover{
+    flex: 3;
+
+    h1{
+        text-align: center;
+        font-size: xx-large;
+    }
+    a{
+        margin-left: 150px;
+    }
+}
+.gr{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 100px;
+}
+.gr img{
+    width: 150px;
+    height: 50px;
+}
+.course{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    background-color: white;
+    padding-left: 50px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    z-index: 1;
+}
+.grid1{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 450px;
+    gap: 10px 20px;
+    row-gap: 0px;
+}
+.dg1{
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.333) 10px 10px 10px 10px;
+    width: 130px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: small;
+}
+.course h2{
+    font-size: x-large;
+    font-weight: 500;
+}
+.course h2:hover{
+    cursor: pointer;
+}
+.webminar{
+    background-color: rgb(225,236,250);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 7%;
+    padding-right: 7%;
+    gap: 50px;
+}
+.subject h2{
+    font-size: x-large;
+    font-weight: 500;
+    color: rgba(51, 49, 49, 0.829);
+}
